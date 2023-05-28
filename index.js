@@ -82,7 +82,7 @@ app.use("/api/v1" , lead)
 
 
 //start server
-app.listen(80, () => {
+app.listen(2500, () => {
     console.log(`Server started successfully at ${PORT}`);
 })
 
